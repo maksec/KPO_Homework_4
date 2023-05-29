@@ -7,8 +7,8 @@ namespace KPO_2.Controllers
     [Route("[controller]")]
     public class OrderCycle : ControllerBase
     {
-        [HttpPost("Gay222")]
-        public IActionResult Get2()
+        [HttpPost("GetDish")]
+        public IActionResult GetDish()
         {
             return Ok();
         }
